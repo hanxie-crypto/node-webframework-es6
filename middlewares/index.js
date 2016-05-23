@@ -7,6 +7,6 @@ exports.author = function(req,res,next) {
 }
 
 exports.test = function(req,res,next) {
-    console.log('sss')
+
     next();
 }
