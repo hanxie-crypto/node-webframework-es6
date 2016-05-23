@@ -32,6 +32,11 @@ npm install
 npm start
 浏览器访问 http://127.0.0.1:3000/users
 
+测试
+npm test
+测试覆盖
+npm run test-cover
+
 ### 注意事项
 
 
