@@ -1,0 +1,94 @@
+@charset "utf-8";
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline
+}
+html{
+    line-height: 1
+}
+ol, ul{
+    list-style: none
+}
+table{
+    border-collapse: collapse;
+    border-spacing: 0
+}
+caption, th, td{
+    text-align: left;
+    font-weight: normal;
+    vertical-align: middle
+}
+q, blockquote{
+    quotes: none
+}
+q:before, q:after, blockquote:before, blockquote:after{
+    content: "";
+    content: none
+}
+a img{
+    border: none
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary{
+    display: block
+}
+.clearfix:after{
+    content: '';
+    display: block;
+    clear: both
+}
+*, *:before, *:after{
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    box-sizing: border-box
+}
+html, body{
+    font-family: helvetica, Arial, "黑体";
+    width: 100%;
+    font-size: 0.6rem;
+    line-height: 1.4
+}
+button, input, select, textarea{
+    font-size: 100%;
+    margin: 0
+}
+img{
+    max-width: 100%;
+    display: block;
+    border: 0;
+    margin: 0 auto
+}
+a{
+    text-decoration: none;
+    outline: none;
+    color: #000
+}
+*:focus{
+    outline: none
+}
+.hide{
+    display: none
+}
+.overflow-hidden{
+    overflow: hidden
+}
+@font-face{
+    font-family: "iconfont";
+    src: url('../font/iconfont.eot');
+    /* IE9 */
+    src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'), url('../font/iconfont.woff') format('woff'), url('../font/iconfont.ttf') format('truetype'), url('../font/iconfont.svg#iconfont') format('svg')
+    /* iOS 4.1- */
+}
+.iconfont{
+    font-family: "iconfont" !important;
+    font-size: 0.8rem;
+    font-style: normal;
+    text-decoration: none;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.4px;
+    -moz-osx-font-smoothing: grayscale
+}
+body{}
+/*# sourceMappingURL=index.css.map */

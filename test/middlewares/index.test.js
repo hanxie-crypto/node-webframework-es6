@@ -13,9 +13,7 @@ describe('test/controllers/usercontroller.test.js', function() {
         .set('x-access-token', token)
         .expect(200)
         .end(function(err, res) {
-          res.status.should.equal(200);
           res.body.status.should.equal(true);
-          res.body.should.have.property("data");
           done(err);
         });
     });

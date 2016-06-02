@@ -1,0 +1,71 @@
+
+@use postcss-clearfix ;
+
+.clearfix {
+    clear: fix;
+}
+
+*,
+*:before,
+*:after {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: helvetica, Arial, "黑体";
+    width: 100%;
+    font-size: 24px;
+    line-height: 1.4;
+}
+
+button,
+input,
+select,
+textarea {
+    font-size: 100%;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    border: 0;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+    color: #000;
+}
+
+*:focus {
+    outline: none;
+}
+
+.hide {
+    display: none;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+@font-face {
+    font-family: "iconfont";
+    src: resolve('iconfont.eot'); /* IE9 */
+    src: resolve('iconfont.eot?#iefix') format('embedded-opentype'), resolve('iconfont.woff') format('woff'), resolve('iconfont.ttf') format('truetype'), resolve('iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 32px;
+    font-style: normal;
+    text-decoration: none;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.4px;
+    -moz-osx-font-smoothing: grayscale;
+}
+
