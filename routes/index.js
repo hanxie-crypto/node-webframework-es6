@@ -57,7 +57,6 @@ const index = {
     },
     'get|/expires': function(req, res, next) {
         let expires = new Date();
-        console.log(expires);
         expires.setTime(expires.getTime() + 10 * 365 * 24 * 60 * 60 * 1000);
         res.setHeader('Expires', expires.toUTCString());
         res.render('index', {
